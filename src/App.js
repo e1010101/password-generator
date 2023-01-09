@@ -75,7 +75,7 @@ function App() {
         justifyContent="center"
         alignItems="center"
         flexDir="column"
-        width="4xl"
+        width={["auto", "md", "lg", "4xl"]}
       >
         <Text
           fontSize="5xl"
